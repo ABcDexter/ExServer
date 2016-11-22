@@ -1,1 +1,13 @@
-some text here...
+<DescribeRegionsResponse xlmns="http://server/doc/2016-09-23">
+	<requestId>somerequestId</requestId>
+	<regionInfo>
+		<item>
+			<regionName>us-east-1</regionName>
+			<regionEndpoint>ec2.us-east-1.aws.com</regionEndpoint>
+		</item>
+		<item>
+			<regionName>us-east-1</regionName>
+			<regionEndpoint>ec2.eu-west-1.aws.com</regionEndpoint>
+		</item>
+	</regionInfo>
+</DescribeRegionsResponse>	
